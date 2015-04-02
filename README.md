@@ -1,11 +1,11 @@
 # swift
 Código do curso de Swift em 4 Semanas da MobGeek
 
-Neste repositório vocês vão poder:
-. baixar os códigos no playground que foram apresentados durante as video-aulas;
-. baixar os projetos dos apps que foram desenvolvidos ao longo do curso e suas extensões; 
-. ter acesso aos desafios semanais;
-. e mais, vão poder trabalhar juntos em projetos colaborativos.
+<br>Neste repositório vocês vão poder:<br>
+. baixar os códigos no playground que foram apresentados durante as video-aulas;<br>
+. baixar os projetos dos apps que foram desenvolvidos ao longo do curso e suas extensões;<br>
+. ter acesso aos desafios semanais;<br>
+. e mais, vão poder trabalhar juntos em projetos colaborativos
 
 Vamos falar um pouco do conteúdo das pastas:
 
