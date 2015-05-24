@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33D308DF1A61E95C004A1D96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D308DE1A61E95C004A1D96 /* AppDelegate.swift */; };
+		33D308E11A61E95C004A1D96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D308E01A61E95C004A1D96 /* ViewController.swift */; };
+		33D308E41A61E95C004A1D96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D308E21A61E95C004A1D96 /* Main.storyboard */; };
+		33D308E61A61E95C004A1D96 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33D308E51A61E95C004A1D96 /* Images.xcassets */; };
+		33D308E91A61E95C004A1D96 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33D308E71A61E95C004A1D96 /* LaunchScreen.xib */; };
+		33D308F51A61E95C004A1D96 /* EconergiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D308F41A61E95C004A1D96 /* EconergiaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33D308EF1A61E95C004A1D96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33D308D11A61E95B004A1D96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33D308D81A61E95B004A1D96;
+			remoteInfo = Econergia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33D308D91A61E95B004A1D96 /* Econergia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Econergia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33D308DD1A61E95B004A1D96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33D308DE1A61E95C004A1D96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33D308E01A61E95C004A1D96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33D308E31A61E95C004A1D96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33D308E51A61E95C004A1D96 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		33D308E81A61E95C004A1D96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		33D308EE1A61E95C004A1D96 /* EconergiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EconergiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33D308F31A61E95C004A1D96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33D308F41A61E95C004A1D96 /* EconergiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EconergiaTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33D308D61A61E95B004A1D96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33D308EB1A61E95C004A1D96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33D308D01A61E95B004A1D96 = {
+			isa = PBXGroup;
+			children = (
+				33D308DB1A61E95B004A1D96 /* Econergia */,
+				33D308F11A61E95C004A1D96 /* EconergiaTests */,
+				33D308DA1A61E95B004A1D96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33D308DA1A61E95B004A1D96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33D308D91A61E95B004A1D96 /* Econergia.app */,
+				33D308EE1A61E95C004A1D96 /* EconergiaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33D308DB1A61E95B004A1D96 /* Econergia */ = {
+			isa = PBXGroup;
+			children = (
+				33D308DE1A61E95C004A1D96 /* AppDelegate.swift */,
+				33D308E01A61E95C004A1D96 /* ViewController.swift */,
+				33D308E21A61E95C004A1D96 /* Main.storyboard */,
+				33D308E51A61E95C004A1D96 /* Images.xcassets */,
+				33D308E71A61E95C004A1D96 /* LaunchScreen.xib */,
+				33D308DC1A61E95B004A1D96 /* Supporting Files */,
+			);
+			path = Econergia;
+			sourceTree = "<group>";
+		};
+		33D308DC1A61E95B004A1D96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33D308DD1A61E95B004A1D96 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33D308F11A61E95C004A1D96 /* EconergiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				33D308F41A61E95C004A1D96 /* EconergiaTests.swift */,
+				33D308F21A61E95C004A1D96 /* Supporting Files */,
+			);
+			path = EconergiaTests;
+			sourceTree = "<group>";
+		};
+		33D308F21A61E95C004A1D96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33D308F31A61E95C004A1D96 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33D308D81A61E95B004A1D96 /* Econergia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33D308F81A61E95C004A1D96 /* Build configuration list for PBXNativeTarget "Econergia" */;
+			buildPhases = (
+				33D308D51A61E95B004A1D96 /* Sources */,
+				33D308D61A61E95B004A1D96 /* Frameworks */,
+				33D308D71A61E95B004A1D96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Econergia;
+			productName = Econergia;
+			productReference = 33D308D91A61E95B004A1D96 /* Econergia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33D308ED1A61E95C004A1D96 /* EconergiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33D308FB1A61E95C004A1D96 /* Build configuration list for PBXNativeTarget "EconergiaTests" */;
+			buildPhases = (
+				33D308EA1A61E95C004A1D96 /* Sources */,
+				33D308EB1A61E95C004A1D96 /* Frameworks */,
+				33D308EC1A61E95C004A1D96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33D308F01A61E95C004A1D96 /* PBXTargetDependency */,
+			);
+			name = EconergiaTests;
+			productName = EconergiaTests;
+			productReference = 33D308EE1A61E95C004A1D96 /* EconergiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33D308D11A61E95B004A1D96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Mobgeek;
+				TargetAttributes = {
+					33D308D81A61E95B004A1D96 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					33D308ED1A61E95C004A1D96 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 33D308D81A61E95B004A1D96;
+					};
+				};
+			};
+			buildConfigurationList = 33D308D41A61E95B004A1D96 /* Build configuration list for PBXProject "Econergia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33D308D01A61E95B004A1D96;
+			productRefGroup = 33D308DA1A61E95B004A1D96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33D308D81A61E95B004A1D96 /* Econergia */,
+				33D308ED1A61E95C004A1D96 /* EconergiaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33D308D71A61E95B004A1D96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D308E41A61E95C004A1D96 /* Main.storyboard in Resources */,
+				33D308E91A61E95C004A1D96 /* LaunchScreen.xib in Resources */,
+				33D308E61A61E95C004A1D96 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33D308EC1A61E95C004A1D96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33D308D51A61E95B004A1D96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D308E11A61E95C004A1D96 /* ViewController.swift in Sources */,
+				33D308DF1A61E95C004A1D96 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33D308EA1A61E95C004A1D96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D308F51A61E95C004A1D96 /* EconergiaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33D308F01A61E95C004A1D96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33D308D81A61E95B004A1D96 /* Econergia */;
+			targetProxy = 33D308EF1A61E95C004A1D96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33D308E21A61E95C004A1D96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33D308E31A61E95C004A1D96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33D308E71A61E95C004A1D96 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33D308E81A61E95C004A1D96 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33D308F61A61E95C004A1D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33D308F71A61E95C004A1D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33D308F91A61E95C004A1D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Econergia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33D308FA1A61E95C004A1D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Econergia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		33D308FC1A61E95C004A1D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EconergiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Econergia.app/Econergia";
+			};
+			name = Debug;
+		};
+		33D308FD1A61E95C004A1D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EconergiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Econergia.app/Econergia";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33D308D41A61E95B004A1D96 /* Build configuration list for PBXProject "Econergia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33D308F61A61E95C004A1D96 /* Debug */,
+				33D308F71A61E95C004A1D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33D308F81A61E95C004A1D96 /* Build configuration list for PBXNativeTarget "Econergia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33D308F91A61E95C004A1D96 /* Debug */,
+				33D308FA1A61E95C004A1D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33D308FB1A61E95C004A1D96 /* Build configuration list for PBXNativeTarget "EconergiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33D308FC1A61E95C004A1D96 /* Debug */,
+				33D308FD1A61E95C004A1D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33D308D11A61E95B004A1D96 /* Project object */;
+}

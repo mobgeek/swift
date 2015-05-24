@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A1319346-6DEE-4E74-BDD2-3054ECA51FF8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>2-Constante &amp; Variáveis</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D6F2860CCD74E5CD5EA8C315894A6E4F1EE2D0D4</key>
+		<string>https://github.com/mobgeek/swift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Swift em 4 Semanas/Playgrounds/Semana 1/2-Constante &amp; Variáveis.playground</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D6F2860CCD74E5CD5EA8C315894A6E4F1EE2D0D4</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mobgeek/swift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D6F2860CCD74E5CD5EA8C315894A6E4F1EE2D0D4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D6F2860CCD74E5CD5EA8C315894A6E4F1EE2D0D4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>swift</string>
+		</dict>
+	</array>
+</dict>
+</plist>
