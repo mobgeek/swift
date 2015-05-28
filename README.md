@@ -9,12 +9,9 @@ Código dos Cursos de Swift da Mobgeek (Swift em 4 Semanas e Crie seu Primeiro A
 
 Vamos falar um pouco da estrutura das pastas:
 
-### Swift em 4 Semanas:
+### Swift em 4 Semanas e Crie seu Pirmeiro App:
 
-Aqui vocês podem encontrar os arquivos Playground apresentados durante as vídeo-aulas, os apps que foram desenvolvidos ao longo do curso e suas varições, além dos desafios semanais com os gabaritos.
-
-### Crie seu Pirmeiro App (Em Breve...):
-
+Aqui vocês podem encontrar os arquivos Playground apresentados durante as vídeo-aulas de cada curso, os apps que foram desenvolvidos ao longo dos cursos e suas varições, além dos desafios semanais com os gabaritos.
 
 ### Projetos Colaborativos (Em Breve...):
 
