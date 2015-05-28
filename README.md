@@ -1,16 +1,23 @@
 # swift
-Código do curso de Swift em 4 Semanas da MobGeek
+Código dos Cursos de Swift da Mobgeek (Swift em 4 Semanas e Crie seu Primeiro App)
 
 <br>Neste repositório vocês vão poder:<br>
-. baixar os códigos no playground que foram apresentados durante as video-aulas;<br>
+. baixar os códigos no playground que foram apresentados durante as aulas;<br>
 . baixar os projetos dos apps que foram desenvolvidos ao longo do curso e suas extensões;<br>
-. ter acesso aos desafios semanais;<br>
-. e mais, vão poder trabalhar juntos em projetos colaborativos.
+. ter acesso aos desafios semanais e seus gabaritos;<br>
+. e mais, vão poder trabalhar juntos em projetos colaborativos ("Em Breve...").
 
-Vamos falar um pouco do conteúdo das pastas:
+Vamos falar um pouco da estrutura das pastas:
 
-- Arquivos Playground: Aqui vocês encontram todos os arquivos playground utilizados durante as video-aulas que apresentam os conceitos da linguagem Swift.
+### Swift em 4 Semanas:
 
-- Desafios Semanais: Esta pasta contém os desafios semanais com conteúdos específicos de cada semana.
+Aqui vocês podem encontrar os arquivos Playground apresentados durante as vídeo-aulas, os apps que foram desenvolvidos ao longo do curso e suas varições, além dos desafios semanais com os gabaritos.
 
-- Apps: Nesta pasta temos projetos de todos os apps desenvolvidos durante o curso e suas extensões, além de existir uma sessão com projetos colaborativos onde vocês vão poder colaborar com a gente.
+### Crie seu Pirmeiro App (Em Breve...):
+
+
+### Projetos Colaborativos (Em Breve...):
+
+
+
+
