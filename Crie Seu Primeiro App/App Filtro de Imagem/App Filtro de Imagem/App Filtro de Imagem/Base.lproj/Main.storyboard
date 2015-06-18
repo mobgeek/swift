@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="uHC-Mv-klW">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="App_Filtro_de_Imagem" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="a62-mt-meQ">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="a62-mt-meQ" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="FpR-NH-Yny"/>
+                            <constraint firstAttribute="trailing" secondItem="a62-mt-meQ" secondAttribute="trailing" id="JT6-ME-JVy"/>
+                            <constraint firstItem="a62-mt-meQ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="tCb-hU-wdp"/>
+                            <constraint firstAttribute="bottom" secondItem="a62-mt-meQ" secondAttribute="bottom" id="uYY-W2-tuE"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="8G5-fj-HuO"/>
+                        <barButtonItem title="Filtro1" id="6vn-cl-cK9">
+                            <connections>
+                                <action selector="aplicarFiltro1:" destination="vXZ-lx-hvc" id="whB-c5-SDh"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="PgA-pV-PvB"/>
+                        <barButtonItem title="Filtro2" id="oQb-BF-gl7">
+                            <connections>
+                                <action selector="aplicarFiltro2:" destination="vXZ-lx-hvc" id="lyd-mj-LMk"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="IRb-Ke-z3L"/>
+                        <barButtonItem title="Limpar" id="IZQ-xh-D8H">
+                            <connections>
+                                <action selector="limpar:" destination="vXZ-lx-hvc" id="PGe-pF-zE9"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="toM-Am-0as"/>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" id="QBP-KX-4k8"/>
+                    <connections>
+                        <outlet property="imageView" destination="a62-mt-meQ" id="f3P-eA-uXT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1066" y="-380"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="vIB-dC-gHk">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" toolbarHidden="NO" id="uHC-Mv-klW" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="MQH-Ji-uSb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="dmo-UT-wfH">
+                        <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="5em-dS-4DF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ew7-SN-hOe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="310" y="-380"/>
+        </scene>
+    </scenes>
+</document>
