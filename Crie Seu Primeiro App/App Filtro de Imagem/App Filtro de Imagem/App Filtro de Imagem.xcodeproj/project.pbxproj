@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB5E406C1B3DB50A008A275A /* bebe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB5E406B1B3DB50A008A275A /* bebe.jpg */; };
 		EBA6442A1B29D58A005DEAA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA644291B29D58A005DEAA9 /* AppDelegate.swift */; };
 		EBA6442C1B29D58A005DEAA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA6442B1B29D58A005DEAA9 /* ViewController.swift */; };
 		EBA6442F1B29D58A005DEAA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBA6442D1B29D58A005DEAA9 /* Main.storyboard */; };
 		EBA644311B29D58B005DEAA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBA644301B29D58B005DEAA9 /* Images.xcassets */; };
 		EBA644341B29D58B005DEAA9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBA644321B29D58B005DEAA9 /* LaunchScreen.xib */; };
 		EBA644401B29D58B005DEAA9 /* App_Filtro_de_ImagemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA6443F1B29D58B005DEAA9 /* App_Filtro_de_ImagemTests.swift */; };
-		EBA6444A1B29D604005DEAA9 /* bebe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EBA644491B29D604005DEAA9 /* bebe.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB5E406B1B3DB50A008A275A /* bebe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bebe.jpg; path = Resources/bebe.jpg; sourceTree = "<group>"; };
 		EBA644241B29D58A005DEAA9 /* App Filtro de Imagem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App Filtro de Imagem.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBA644281B29D58A005DEAA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBA644291B29D58A005DEAA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -37,7 +38,6 @@
 		EBA644391B29D58B005DEAA9 /* App Filtro de ImagemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "App Filtro de ImagemTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBA6443E1B29D58B005DEAA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBA6443F1B29D58B005DEAA9 /* App_Filtro_de_ImagemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_Filtro_de_ImagemTests.swift; sourceTree = "<group>"; };
-		EBA644491B29D604005DEAA9 /* bebe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bebe.jpg; path = ../../bebe.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 		EBA644261B29D58A005DEAA9 /* App Filtro de Imagem */ = {
 			isa = PBXGroup;
 			children = (
-				EBA644491B29D604005DEAA9 /* bebe.jpg */,
+				EB5E406B1B3DB50A008A275A /* bebe.jpg */,
 				EBA644291B29D58A005DEAA9 /* AppDelegate.swift */,
 				EBA6442B1B29D58A005DEAA9 /* ViewController.swift */,
 				EBA6442D1B29D58A005DEAA9 /* Main.storyboard */,
@@ -197,7 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBA6442F1B29D58A005DEAA9 /* Main.storyboard in Resources */,
-				EBA6444A1B29D604005DEAA9 /* bebe.jpg in Resources */,
+				EB5E406C1B3DB50A008A275A /* bebe.jpg in Resources */,
 				EBA644341B29D58B005DEAA9 /* LaunchScreen.xib in Resources */,
 				EBA644311B29D58B005DEAA9 /* Images.xcassets in Resources */,
 			);
