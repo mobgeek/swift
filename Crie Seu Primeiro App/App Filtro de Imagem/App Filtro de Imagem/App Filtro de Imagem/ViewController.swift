@@ -13,12 +13,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
     
     var imagemSemFiltro = UIImage(named: "bebe.jpg")
-    
     var imagemComFiltro: UIImage!
     
     var filtro1: CIFilter!
-    
     var filtro2: CIFilter!
+    
+    let context = CIContext(options: nil)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,15 +29,15 @@ class ViewController: UIViewController {
         let imagemParaFiltro = CIImage(image: imagemSemFiltro)
         
         filtro1 = CIFilter(name: "CISepiaTone", withInputParameters: ["inputImage":imagemParaFiltro, "inputIntensity": 1.0])
-        
         filtro2 = CIFilter(name: "CIHueAdjust", withInputParameters: ["inputImage": imagemParaFiltro, "inputAngle": 5.0])
         
     }
 
     @IBAction func aplicarFiltro1(sender: UIBarButtonItem) {
         
-        imagemComFiltro = UIImage(CIImage: filtro1.outputImage)
+        let imagemRenderizada = context.createCGImage(filtro1.outputImage, fromRect: filtro1.outputImage.extent())
         
+        imagemComFiltro = UIImage(CGImage: imagemRenderizada)
         imageView.image = imagemComFiltro
         
     }
@@ -52,8 +52,9 @@ class ViewController: UIViewController {
     
     @IBAction func aplicarFiltro2(sender: UIBarButtonItem) {
         
-        imagemComFiltro = UIImage(CIImage: filtro2.outputImage)
+        let imagemRenderizada = context.createCGImage(filtro2.outputImage, fromRect: filtro2.outputImage.extent())
         
+        imagemComFiltro = UIImage(CGImage: imagemRenderizada)
         imageView.image = imagemComFiltro
         
     }
