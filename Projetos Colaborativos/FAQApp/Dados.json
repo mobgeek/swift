@@ -1,0 +1,80 @@
+{ "results": [
+	{
+        "category": "Classes \u0026 Estruturas",
+        "createdAt": "2015-06-30T05:12:55.578Z",
+        "file": {
+            "__type": "File",
+            "name": "tfss-b84147e0-4b12-42b3-8e3e-66b2818e9363-QA1.docx",
+            "url": "http://files.parsetfss.com/c22b0cc1-bd06-4de6-b559-25b44f079e09/tfss-b84147e0-4b12-42b3-8e3e-66b2818e9363-QA1.docx"
+        },
+        "objectId": "YnIzj6i8d2",
+        "questionBeginning": "String seria uma classe, certo? Assim como em Java onde temos o tipo de dado (int) e a classe (Integer).\nUma das coisas que eu venho percebendo na linguagem é que ao declarar uma variavel ou constante, voce nao define um tipo de dado para ela como int, doubl",
+        "title": "Tipos Prontos",
+        "updatedAt": "2015-07-05T04:28:06.097Z"
+    },
+	{
+        "category": "Fluxo de Controle",
+        "createdAt": "2015-06-29T04:38:35.618Z",
+        "file": {
+            "__type": "File",
+            "name": "tfss-cc5718bd-61e1-432c-a2af-f7957b02f16e-QA2.docx",
+            "url": "http://files.parsetfss.com/c22b0cc1-bd06-4de6-b559-25b44f079e09/tfss-cc5718bd-61e1-432c-a2af-f7957b02f16e-QA2.docx"
+        },
+        "objectId": "mi4ltAhlPr",
+        "questionBeginning": "Porque o caso default é declarado sempre no final? ele nao seria o primeiro?",
+        "title": "Switch-Case",
+        "updatedAt": "2015-07-05T04:25:02.912Z"
+    },
+	{
+        "category": "Fluxo de Controle",
+        "createdAt": "2015-07-02T23:52:23.360Z",
+        "file": {
+            "__type": "File",
+            "name": "tfss-3374420a-f3be-4469-b2e9-8c232760a62d-QA3.docx",
+            "url": "http://files.parsetfss.com/c22b0cc1-bd06-4de6-b559-25b44f079e09/tfss-3374420a-f3be-4469-b2e9-8c232760a62d-QA3.docx"
+        },
+        "objectId": "ahZK9akNVD",
+        "questionBeginning": "No \"If\" que engloba a análise simultânea de 2 variáveis tipo bool o Swift sempre vai considerar por padrão o bool = True?\nPorque em um dos meus testes meu objetivo era saber se ambos eram =false.",
+        "title": "If-Else",
+        "updatedAt": "2015-07-05T04:24:59.606Z"
+    },
+	{
+        "category": "Tipos de Dados",
+        "createdAt": "2015-07-03T00:04:32.108Z",
+        "file": {
+            "__type": "File",
+            "name": "tfss-67d4b6c5-e05e-44c4-88a2-24173a791739-QA4.docx",
+            "url": "http://files.parsetfss.com/c22b0cc1-bd06-4de6-b559-25b44f079e09/tfss-67d4b6c5-e05e-44c4-88a2-24173a791739-QA4.docx"
+        },
+        "objectId": "bXikw7KkN7",
+        "questionBeginning": "Se eu crio uma variável e dentro dela coloco um array, junto com o método de remoção em um índex específico, ex:\nvar item = lista.removeAtIndex(1)\nO que vai para dentro desta variável? O restante da lista ou o item removido?",
+        "title": "Coleções (Array)",
+        "updatedAt": "2015-07-05T04:01:37.917Z"
+    },
+	{
+        "category": "Sobre a Linguagem",
+        "createdAt": "2015-06-30T05:16:14.801Z",
+        "file": {
+            "__type": "File",
+            "name": "tfss-9d28bce5-ad2b-483e-8437-73525bc40d40-Swift presentation.pptx",
+            "url": "http://files.parsetfss.com/c22b0cc1-bd06-4de6-b559-25b44f079e09/tfss-9d28bce5-ad2b-483e-8437-73525bc40d40-Swift%20presentation.pptx"
+        },
+        "objectId": "8RaCjRNrze",
+        "questionBeginning": "Apresentação de algumas características da nossa amada linguagem Swift :)",
+        "title": "Características",
+        "updatedAt": "2015-07-05T03:57:22.252Z"
+    },
+	{
+        "category": "Sobre a Linguagem",
+        "createdAt": "2015-07-03T04:14:47.582Z",
+        "file": {
+            "__type": "File",
+            "name": "tfss-38e21151-53ae-4c40-bfd5-a0bda39787c2-Recursos.docx",
+            "url": "http://files.parsetfss.com/c22b0cc1-bd06-4de6-b559-25b44f079e09/tfss-38e21151-53ae-4c40-bfd5-a0bda39787c2-Recursos.docx"
+        },
+        "objectId": "QV8GF3DM1O",
+        "questionBeginning": "Alguns recursos e ferramentas que podem te ajudar com Swift",
+        "title": "Recursos",
+        "updatedAt": "2015-07-04T02:28:21.492Z"
+    }
+] }
