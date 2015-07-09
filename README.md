@@ -1,4 +1,4 @@
-# swift
+# Swift
 Código dos Cursos de Swift da Mobgeek (Swift em 4 Semanas e Crie seu Primeiro App)
 
 <br>Neste repositório vocês vão poder:<br>
@@ -13,7 +13,10 @@ Vamos falar um pouco da estrutura das pastas:
 
 Aqui vocês podem encontrar os arquivos Playground apresentados durante as vídeo-aulas de cada curso, os apps que foram desenvolvidos ao longo dos cursos e suas varições, além dos desafios semanais com os gabaritos.
 
-### Projetos Colaborativos (Em Breve...):
+### Projetos Colaborativos (INAUGURADO!!!):
+
+Aqui vocês poderão participar de projetos na comunidade, contrbuindo de todas as formas possíveis: implementando novas funcionalidades no App, corrigingo bugs, sugerindo melhorias, e é claro, aprendendo mais de Swift =)
+
 
 
 
