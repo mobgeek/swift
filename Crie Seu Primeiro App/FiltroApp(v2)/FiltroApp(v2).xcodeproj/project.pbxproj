@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBDB6E851B8EA46000CBCA71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDB6E841B8EA46000CBCA71 /* AppDelegate.swift */; };
+		EBDB6E871B8EA46000CBCA71 /* SegundoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDB6E861B8EA46000CBCA71 /* SegundoViewController.swift */; };
+		EBDB6E8A1B8EA46000CBCA71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBDB6E881B8EA46000CBCA71 /* Main.storyboard */; };
+		EBDB6E8C1B8EA46000CBCA71 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBDB6E8B1B8EA46000CBCA71 /* Images.xcassets */; };
+		EBDB6E8F1B8EA46000CBCA71 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBDB6E8D1B8EA46000CBCA71 /* LaunchScreen.xib */; };
+		EBDB6E9B1B8EA46000CBCA71 /* FiltroApp_v2_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDB6E9A1B8EA46000CBCA71 /* FiltroApp_v2_Tests.swift */; };
+		EBDB6EA51B8EA68800CBCA71 /* PrimeiroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDB6EA41B8EA68800CBCA71 /* PrimeiroViewController.swift */; };
+		EBDB6EA81B8EA78500CBCA71 /* bebe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EBDB6EA61B8EA78500CBCA71 /* bebe.jpg */; };
+		EBDB6EA91B8EA78500CBCA71 /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EBDB6EA71B8EA78500CBCA71 /* dog.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBDB6E951B8EA46000CBCA71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBDB6E771B8EA45F00CBCA71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBDB6E7E1B8EA46000CBCA71;
+			remoteInfo = "FiltroApp(v2)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBDB6E7F1B8EA46000CBCA71 /* FiltroApp(v2).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FiltroApp(v2).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBDB6E831B8EA46000CBCA71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBDB6E841B8EA46000CBCA71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBDB6E861B8EA46000CBCA71 /* SegundoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegundoViewController.swift; sourceTree = "<group>"; };
+		EBDB6E891B8EA46000CBCA71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBDB6E8B1B8EA46000CBCA71 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EBDB6E8E1B8EA46000CBCA71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EBDB6E941B8EA46000CBCA71 /* FiltroApp(v2)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FiltroApp(v2)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBDB6E991B8EA46000CBCA71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBDB6E9A1B8EA46000CBCA71 /* FiltroApp_v2_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltroApp_v2_Tests.swift; sourceTree = "<group>"; };
+		EBDB6EA41B8EA68800CBCA71 /* PrimeiroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimeiroViewController.swift; sourceTree = "<group>"; };
+		EBDB6EA61B8EA78500CBCA71 /* bebe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bebe.jpg; path = Resources/bebe.jpg; sourceTree = "<group>"; };
+		EBDB6EA71B8EA78500CBCA71 /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dog.jpg; path = Resources/dog.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBDB6E7C1B8EA46000CBCA71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBDB6E911B8EA46000CBCA71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBDB6E761B8EA45F00CBCA71 = {
+			isa = PBXGroup;
+			children = (
+				EBDB6E811B8EA46000CBCA71 /* FiltroApp(v2) */,
+				EBDB6E971B8EA46000CBCA71 /* FiltroApp(v2)Tests */,
+				EBDB6E801B8EA46000CBCA71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBDB6E801B8EA46000CBCA71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBDB6E7F1B8EA46000CBCA71 /* FiltroApp(v2).app */,
+				EBDB6E941B8EA46000CBCA71 /* FiltroApp(v2)Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBDB6E811B8EA46000CBCA71 /* FiltroApp(v2) */ = {
+			isa = PBXGroup;
+			children = (
+				EBDB6EA61B8EA78500CBCA71 /* bebe.jpg */,
+				EBDB6EA71B8EA78500CBCA71 /* dog.jpg */,
+				EBDB6E841B8EA46000CBCA71 /* AppDelegate.swift */,
+				EBDB6EA41B8EA68800CBCA71 /* PrimeiroViewController.swift */,
+				EBDB6E861B8EA46000CBCA71 /* SegundoViewController.swift */,
+				EBDB6E881B8EA46000CBCA71 /* Main.storyboard */,
+				EBDB6E8B1B8EA46000CBCA71 /* Images.xcassets */,
+				EBDB6E8D1B8EA46000CBCA71 /* LaunchScreen.xib */,
+				EBDB6E821B8EA46000CBCA71 /* Supporting Files */,
+			);
+			path = "FiltroApp(v2)";
+			sourceTree = "<group>";
+		};
+		EBDB6E821B8EA46000CBCA71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBDB6E831B8EA46000CBCA71 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBDB6E971B8EA46000CBCA71 /* FiltroApp(v2)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EBDB6E9A1B8EA46000CBCA71 /* FiltroApp_v2_Tests.swift */,
+				EBDB6E981B8EA46000CBCA71 /* Supporting Files */,
+			);
+			path = "FiltroApp(v2)Tests";
+			sourceTree = "<group>";
+		};
+		EBDB6E981B8EA46000CBCA71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBDB6E991B8EA46000CBCA71 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBDB6E7E1B8EA46000CBCA71 /* FiltroApp(v2) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBDB6E9E1B8EA46000CBCA71 /* Build configuration list for PBXNativeTarget "FiltroApp(v2)" */;
+			buildPhases = (
+				EBDB6E7B1B8EA46000CBCA71 /* Sources */,
+				EBDB6E7C1B8EA46000CBCA71 /* Frameworks */,
+				EBDB6E7D1B8EA46000CBCA71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FiltroApp(v2)";
+			productName = "FiltroApp(v2)";
+			productReference = EBDB6E7F1B8EA46000CBCA71 /* FiltroApp(v2).app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBDB6E931B8EA46000CBCA71 /* FiltroApp(v2)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBDB6EA11B8EA46000CBCA71 /* Build configuration list for PBXNativeTarget "FiltroApp(v2)Tests" */;
+			buildPhases = (
+				EBDB6E901B8EA46000CBCA71 /* Sources */,
+				EBDB6E911B8EA46000CBCA71 /* Frameworks */,
+				EBDB6E921B8EA46000CBCA71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBDB6E961B8EA46000CBCA71 /* PBXTargetDependency */,
+			);
+			name = "FiltroApp(v2)Tests";
+			productName = "FiltroApp(v2)Tests";
+			productReference = EBDB6E941B8EA46000CBCA71 /* FiltroApp(v2)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBDB6E771B8EA45F00CBCA71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Mobgeek;
+				TargetAttributes = {
+					EBDB6E7E1B8EA46000CBCA71 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					EBDB6E931B8EA46000CBCA71 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = EBDB6E7E1B8EA46000CBCA71;
+					};
+				};
+			};
+			buildConfigurationList = EBDB6E7A1B8EA45F00CBCA71 /* Build configuration list for PBXProject "FiltroApp(v2)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBDB6E761B8EA45F00CBCA71;
+			productRefGroup = EBDB6E801B8EA46000CBCA71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBDB6E7E1B8EA46000CBCA71 /* FiltroApp(v2) */,
+				EBDB6E931B8EA46000CBCA71 /* FiltroApp(v2)Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBDB6E7D1B8EA46000CBCA71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDB6E8A1B8EA46000CBCA71 /* Main.storyboard in Resources */,
+				EBDB6EA91B8EA78500CBCA71 /* dog.jpg in Resources */,
+				EBDB6EA81B8EA78500CBCA71 /* bebe.jpg in Resources */,
+				EBDB6E8F1B8EA46000CBCA71 /* LaunchScreen.xib in Resources */,
+				EBDB6E8C1B8EA46000CBCA71 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBDB6E921B8EA46000CBCA71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBDB6E7B1B8EA46000CBCA71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDB6EA51B8EA68800CBCA71 /* PrimeiroViewController.swift in Sources */,
+				EBDB6E871B8EA46000CBCA71 /* SegundoViewController.swift in Sources */,
+				EBDB6E851B8EA46000CBCA71 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBDB6E901B8EA46000CBCA71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDB6E9B1B8EA46000CBCA71 /* FiltroApp_v2_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBDB6E961B8EA46000CBCA71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBDB6E7E1B8EA46000CBCA71 /* FiltroApp(v2) */;
+			targetProxy = EBDB6E951B8EA46000CBCA71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBDB6E881B8EA46000CBCA71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBDB6E891B8EA46000CBCA71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBDB6E8D1B8EA46000CBCA71 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBDB6E8E1B8EA46000CBCA71 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBDB6E9C1B8EA46000CBCA71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBDB6E9D1B8EA46000CBCA71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBDB6E9F1B8EA46000CBCA71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FiltroApp(v2)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBDB6EA01B8EA46000CBCA71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FiltroApp(v2)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EBDB6EA21B8EA46000CBCA71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FiltroApp(v2)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FiltroApp(v2).app/FiltroApp(v2)";
+			};
+			name = Debug;
+		};
+		EBDB6EA31B8EA46000CBCA71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FiltroApp(v2)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FiltroApp(v2).app/FiltroApp(v2)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBDB6E7A1B8EA45F00CBCA71 /* Build configuration list for PBXProject "FiltroApp(v2)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBDB6E9C1B8EA46000CBCA71 /* Debug */,
+				EBDB6E9D1B8EA46000CBCA71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBDB6E9E1B8EA46000CBCA71 /* Build configuration list for PBXNativeTarget "FiltroApp(v2)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBDB6E9F1B8EA46000CBCA71 /* Debug */,
+				EBDB6EA01B8EA46000CBCA71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBDB6EA11B8EA46000CBCA71 /* Build configuration list for PBXNativeTarget "FiltroApp(v2)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBDB6EA21B8EA46000CBCA71 /* Debug */,
+				EBDB6EA31B8EA46000CBCA71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBDB6E771B8EA45F00CBCA71 /* Project object */;
+}

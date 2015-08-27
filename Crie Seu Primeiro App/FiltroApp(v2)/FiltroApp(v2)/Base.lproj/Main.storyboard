@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="oPQ-YU-hpa">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Primeira Cena-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="PrimeiroViewController" customModule="FiltroApp_v2_" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Escolha uma imagem;" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JNE-zr-GQY">
+                                <rect key="frame" x="215" y="161" width="170" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BGP-Nk-v3p">
+                                <rect key="frame" x="282" y="231" width="36" height="30"/>
+                                <state key="normal" title="Bebê">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="bebePressionado:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="kkH-ED-2La"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S8v-zU-Rbz">
+                                <rect key="frame" x="268" y="269" width="64" height="30"/>
+                                <state key="normal" title="Cachorro">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="cachorroPressionado:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="rs0-7k-V9Q"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="S8v-zU-Rbz" firstAttribute="top" secondItem="BGP-Nk-v3p" secondAttribute="bottom" constant="8" symbolic="YES" id="EbK-9Y-qEw"/>
+                            <constraint firstItem="JNE-zr-GQY" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="97" id="G0X-M6-KQ5"/>
+                            <constraint firstItem="JNE-zr-GQY" firstAttribute="centerX" secondItem="BGP-Nk-v3p" secondAttribute="centerX" id="N2M-yU-Q8z"/>
+                            <constraint firstItem="BGP-Nk-v3p" firstAttribute="centerX" secondItem="S8v-zU-Rbz" secondAttribute="centerX" id="bw6-HE-Zdv"/>
+                            <constraint firstItem="BGP-Nk-v3p" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="qbp-Vb-Pp7"/>
+                            <constraint firstItem="BGP-Nk-v3p" firstAttribute="top" secondItem="JNE-zr-GQY" secondAttribute="bottom" constant="49" id="vB6-20-Ttb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Primeira Cena" id="uwy-Vg-eDG"/>
+                    <connections>
+                        <segue destination="11D-jK-8A4" kind="show" identifier="FirstToSecondScene" id="P2M-VY-ZhF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1094" y="-378"/>
+        </scene>
+        <!--Segunda Cena-->
+        <scene sceneID="1ha-2T-1Ou">
+            <objects>
+                <viewController id="11D-jK-8A4" customClass="SegundoViewController" customModule="FiltroApp_v2_" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cMP-Z3-Ptz"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mqx-iq-Uh9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wH5-AF-hBJ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lxk-33-5Rq">
+                                <rect key="frame" x="0.0" y="64" width="600" height="492"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lxk-33-5Rq" firstAttribute="leading" secondItem="wH5-AF-hBJ" secondAttribute="leading" id="Hgc-Ca-TcR"/>
+                            <constraint firstItem="lxk-33-5Rq" firstAttribute="top" secondItem="cMP-Z3-Ptz" secondAttribute="bottom" id="V4M-vv-1gV"/>
+                            <constraint firstAttribute="trailing" secondItem="lxk-33-5Rq" secondAttribute="trailing" id="pNZ-4k-x5C"/>
+                            <constraint firstItem="lxk-33-5Rq" firstAttribute="bottom" secondItem="Mqx-iq-Uh9" secondAttribute="top" id="xAS-r6-xOt"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="OqE-ax-uk8"/>
+                        <barButtonItem title="Aplicar Filtro" id="yOJ-1z-hOu">
+                            <connections>
+                                <action selector="aplicaFiltro:" destination="11D-jK-8A4" id="IZn-Lm-KJH"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="fuX-MW-oaM"/>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" title="Segunda Cena" id="U3i-B5-Bwg"/>
+                    <connections>
+                        <outlet property="imageView" destination="lxk-33-5Rq" id="JeG-cT-rfZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E06-Lh-bjK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1815" y="-378"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Rqw-SZ-7Pc">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" toolbarHidden="NO" id="oPQ-YU-hpa" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fGf-LJ-MjV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="SKP-Ot-a5t">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="YoY-iM-5hc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="luJ-be-w6D" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="334" y="-378"/>
+        </scene>
+    </scenes>
+</document>
