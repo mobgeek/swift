@@ -130,7 +130,9 @@ class ParseClass {
                 x != "" && y != "" && w != "" && z != ""
                 
                 else  { return nil }
+            
         }
+        
         
         //Retorna os objetos da busca online caso não seja encontrado campos vazios
         return objects

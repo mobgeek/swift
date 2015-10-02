@@ -23,6 +23,7 @@ func checkForInternet() -> Bool {
     
     do {
         try NSURLConnection.sendSynchronousRequest(request, returningResponse: &response)
+    
     } catch {
         print(error)
     }

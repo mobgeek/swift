@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' requires-full-environment='true' display-mode='rendered'>
+    <pages>
+        <page name='Swift Em 4 Semanas'/>
+        <page name='S1 - Conheça o Playground'/>
+        <page name='S1 - Constantes e Variáveis'/>
+        <page name='S1 - Tipos Fundamentais'/>
+        <page name='S1 - Operadores Básicos'/>
+        <page name='S1 - Fluxo de Controle'/>
+        <page name='S1 - Continue&amp;Break'/>
+        <page name='S2 - Optionals'/>
+        <page name='S2 - Tuplas'/>
+        <page name='S2 - Funções'/>
+        <page name='S2 - Guard'/>
+        <page name='S2 - Coleções'/>
+        <page name='S2 - Closures'/>
+        <page name='S2 - Enumerações'/>
+        <page name='S3 - Classes, Estruturas e Enums'/>
+        <page name='S3 - Propriedades'/>
+        <page name='S3 - Métodos'/>
+        <page name='S3 - Herança'/>
+        <page name='S3 - Inicialização'/>
+        <page name='S3 - Delegando Inicialização'/>
+        <page name='S3 - Inicializadores Que Falham'/>
+        <page name='S3 - Protocolos'/>
+        <page name='S3 - Type Casting'/>
+        <page name='S4 - Tratamento de Erros'/>
+        <page name='S4 - Deinicialização'/>
+        <page name='S4 - Subscripts'/>
+        <page name='S4 - Nested Types'/>
+        <page name='S4 - Extensions'/>
+        <page name='S4 - Generics'/>
+        <page name='S4 - Optional Chaining'/>
+        <page name='S4 - Protocol Extensions'/>
+    </pages>
+</playground>
