@@ -193,7 +193,7 @@ class CategoryTableViewController: UITableViewController, UISearchBarDelegate {
         
         //Armazenando todas as categorias do dicionário que tem algo a ver com o que foi digitado na barra de busca
         
-        filteredResults = dicionário.keys.array.filter({
+        filteredResults = Array(dicionário.keys).filter({
             
             (categoria: String) -> Bool in
             
@@ -268,7 +268,7 @@ class CategoryTableViewController: UITableViewController, UISearchBarDelegate {
             
             //Armazenando em uma Array as categorias do dicionário em ordem alfabética
             
-            var orderedCategory = dicionário.keys.array.sort({$0.lowercaseString < $1.lowercaseString})
+            var orderedCategory = Array(dicionário.keys).sort({$0.lowercaseString < $1.lowercaseString})
             
             //Atualiza cada célula com as categorias da Array
             

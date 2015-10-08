@@ -138,15 +138,15 @@ let mensagem = "Você me ligou \(contadorNatural)"
 
 Aqui está um link direto para os arquivos:
 
-[Optionals - Semana 2](Optionals)
+[Optionals Semana 2](S2%20-%20Optionals)
 
 ---
 
-[Funções - Semana 2](Funções)
+[Funções Semana 2](S2%20-%20Funções)
 
 ---
 
-[Guard - Semana 2](Guard)
+[Guard Semana 2](S2%20-%20Guard)
 
 */
 

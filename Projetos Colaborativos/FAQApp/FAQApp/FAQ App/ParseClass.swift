@@ -167,11 +167,11 @@ class ParseClass {
             
             if dicionário[category] == nil {
                 
-                dicionário[category] = [(title: title, subtitle: subtitle,file: file, fileExt: file.name.pathExtension)]
+                dicionário[category] = [(title: title, subtitle: subtitle,file: file, fileExt: (file.name as NSString).pathExtension)]
                 
             } else {   //Se já existir, acrescenta mais uma tupla a array correpondente a categoria em questão
                 
-                dicionário[category]!.append(title: title, subtitle: subtitle,file: file, fileExt: file.name.pathExtension)
+                dicionário[category]!.append(title: title, subtitle: subtitle,file: file, fileExt: (file.name as NSString).pathExtension)
                 
             }
             

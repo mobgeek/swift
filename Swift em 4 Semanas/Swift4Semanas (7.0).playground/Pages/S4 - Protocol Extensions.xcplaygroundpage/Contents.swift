@@ -6,11 +6,11 @@
 
 Caso precise revisar extensions e protocolos:
 
-[Extensions](Extensions)
+[Extensions](S4%20-%20Extensions)
 
 ---
 
-[Protocolos](Protocolos)
+[Protocolos](S3%20-%20Protocolos)
 
 */
 
@@ -178,6 +178,18 @@ extension Comportamento {
     
 }
 
+struct Estrutura {
+    
+    var nome: String
+    
+    mutating func alterarNome() {
+        
+        self.nome = "novo nome"
+        
+    }
+    
+}
+
 struct MonstroRank1: Comportamento {
     
     var vida = 400
@@ -217,7 +229,7 @@ struct MonstroRank3: Comportamento {
     
     var podeLançarProjétil = true
     
-    mutating func disparaProjétil() {
+    func disparaProjétil() {
         
         if podeLançarProjétil == true {
             

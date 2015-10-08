@@ -162,6 +162,7 @@
 		33C348911A07233E00766AC9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Fabio Santos";
 				TargetAttributes = {
@@ -413,6 +414,7 @@
 				33C348BA1A07233E00766AC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33C348BB1A07233E00766AC9 /* Build configuration list for PBXNativeTarget "ListaTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +423,7 @@
 				33C348BD1A07233E00766AC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
