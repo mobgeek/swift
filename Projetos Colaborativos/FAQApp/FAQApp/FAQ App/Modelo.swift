@@ -18,7 +18,7 @@ import Parse
 ///O medelo seria [String: [(String,String): NSData]], mas tuplas não podem ser usadas como chaves pois não adotam o protocolo Hashable
 
 
-var dicionário:[String:[ (title:String, subtitle:String, file:PFFile, fileExt: String) ]] = [:]
+var dicionário:[String:[(title:String, subtitle:String, file:PFFile, fileExt: String)]] = [:]
 
 
 ///Motivos pelos quais armazenar o arquivo no modelo como PFFile ao invés de NSData:

@@ -10,10 +10,12 @@ import UIKit
 import CoreData
 
 class ListaTableViewController: UITableViewController {
+    
     var itens: [Item] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -22,7 +24,6 @@ class ListaTableViewController: UITableViewController {
         let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
         
         let moc = appDelegate.managedObjectContext!
-        
         
         let fetchRequest = NSFetchRequest(entityName: "Item")
         
@@ -36,7 +37,7 @@ class ListaTableViewController: UITableViewController {
             
             erro = error as NSError
             
-            print("O fetch não foi possível. \(erro), \(erro.userInfo)")
+            print("O fetch não foi possível. \(erro), \(erro.userInfo), \(erro.description)")
             
         }
     
