@@ -165,6 +165,7 @@
 		EBDB6E771B8EA45F00CBCA71 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = Mobgeek;
 				TargetAttributes = {
@@ -421,6 +422,7 @@
 				EBDB6EA01B8EA46000CBCA71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBDB6EA11B8EA46000CBCA71 /* Build configuration list for PBXNativeTarget "FiltroApp(v2)Tests" */ = {
 			isa = XCConfigurationList;
@@ -429,6 +431,7 @@
 				EBDB6EA31B8EA46000CBCA71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

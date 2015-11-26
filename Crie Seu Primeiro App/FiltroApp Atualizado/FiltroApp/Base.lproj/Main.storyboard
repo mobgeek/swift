@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="T9g-C2-UfL">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Primeria Cena-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="FiltroApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Escolha Uma Imagem:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aik-1t-JC3">
+                                <rect key="frame" x="214" y="112" width="173" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TGE-6T-PDe">
+                                <rect key="frame" x="277" y="192" width="36" height="30"/>
+                                <state key="normal" title="Bebê">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="18v-nA-kwf" kind="show" identifier="bebeSegue" id="2Go-tC-cJi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jv2-B2-oPD">
+                                <rect key="frame" x="263" y="230" width="64" height="30"/>
+                                <state key="normal" title="Cachorro">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="18v-nA-kwf" kind="show" identifier="dogSegue" id="bJp-Nz-FS0"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mRR-Cc-4mC">
+                                <rect key="frame" x="247" y="346" width="97" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="ljg-BU-U4P"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="TGE-6T-PDe" firstAttribute="top" secondItem="Aik-1t-JC3" secondAttribute="bottom" constant="59" id="1WR-xX-cT7"/>
+                            <constraint firstAttribute="centerX" secondItem="mRR-Cc-4mC" secondAttribute="centerX" constant="4.5" id="6g7-zh-12f"/>
+                            <constraint firstAttribute="centerX" secondItem="Aik-1t-JC3" secondAttribute="centerX" constant="-0.5" id="7KD-uS-Vvq"/>
+                            <constraint firstItem="mRR-Cc-4mC" firstAttribute="top" secondItem="jv2-B2-oPD" secondAttribute="bottom" constant="86" id="91A-hV-GIT"/>
+                            <constraint firstAttribute="centerX" secondItem="jv2-B2-oPD" secondAttribute="centerX" constant="5" id="B6e-BS-FxU"/>
+                            <constraint firstItem="Aik-1t-JC3" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="48" id="BRz-RL-0vx"/>
+                            <constraint firstAttribute="centerX" secondItem="TGE-6T-PDe" secondAttribute="centerX" constant="5" id="gRB-By-Cqr"/>
+                            <constraint firstItem="jv2-B2-oPD" firstAttribute="top" secondItem="TGE-6T-PDe" secondAttribute="bottom" constant="8" id="lo8-3u-6wZ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Primeria Cena" id="f9s-pO-y4c"/>
+                    <connections>
+                        <outlet property="textField" destination="mRR-Cc-4mC" id="s8j-Nj-T2p"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="943" y="-377.99999999999994"/>
+        </scene>
+        <!--Segunda Cena-->
+        <scene sceneID="dFW-v1-mw6">
+            <objects>
+                <viewController id="18v-nA-kwf" customClass="SegundoViewController" customModule="FiltroApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PeS-Rb-ixp"/>
+                        <viewControllerLayoutGuide type="bottom" id="saT-nk-C6X"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QwR-vY-33Y">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="F7s-mB-WT2">
+                                <rect key="frame" x="0.0" y="64" width="600" height="492"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="F7s-mB-WT2" firstAttribute="top" secondItem="PeS-Rb-ixp" secondAttribute="bottom" id="LXO-VA-HdX"/>
+                            <constraint firstItem="F7s-mB-WT2" firstAttribute="leading" secondItem="QwR-vY-33Y" secondAttribute="leading" id="MW5-eT-gH4"/>
+                            <constraint firstAttribute="trailing" secondItem="F7s-mB-WT2" secondAttribute="trailing" id="oVS-D0-wzg"/>
+                            <constraint firstItem="F7s-mB-WT2" firstAttribute="bottom" secondItem="saT-nk-C6X" secondAttribute="top" id="pCh-V6-Yab"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="w41-ZU-7Vn"/>
+                        <barButtonItem title="Aplicar Filtro" id="f2D-zI-oz9">
+                            <connections>
+                                <action selector="aplicaFiltro:" destination="18v-nA-kwf" id="wTe-tD-aPo"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="BKq-Fb-md3"/>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" title="Segunda Cena" id="1UR-Mx-VTh"/>
+                    <connections>
+                        <outlet property="imageView" destination="F7s-mB-WT2" id="CN8-QB-RTV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xq6-Oz-5p2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1689" y="-378"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="VfI-zd-Wt0">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" toolbarHidden="NO" id="T9g-C2-UfL" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="bE3-8V-6nf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="v7c-uq-B3N">
+                        <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="lK9-ud-AIQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9K7-YN-sGv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="177" y="-377.99999999999994"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="bJp-Nz-FS0"/>
+    </inferredMetricsTieBreakers>
+</document>
