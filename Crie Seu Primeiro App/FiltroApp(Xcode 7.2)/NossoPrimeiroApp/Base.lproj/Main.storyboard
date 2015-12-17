@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="eMu-dA-amM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Primeira Cena-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NossoPrimeiroApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Escolha Uma Imagem" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jeh-Iq-f4r">
+                                <rect key="frame" x="217" y="128" width="166" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dro-9g-GB5">
+                                <rect key="frame" x="268" y="296" width="64" height="30"/>
+                                <state key="normal" title="Cachorro"/>
+                                <connections>
+                                    <segue destination="YaQ-09-N16" kind="show" identifier="dogSegue" id="gf5-cO-lbX"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kbB-yd-Jwk">
+                                <rect key="frame" x="252" y="372" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ljs-5e-wqq">
+                                <rect key="frame" x="282" y="234" width="36" height="30"/>
+                                <state key="normal" title="Bebê"/>
+                                <connections>
+                                    <segue destination="YaQ-09-N16" kind="show" identifier="babySegue" id="oVf-IK-FKS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dro-9g-GB5" firstAttribute="centerX" secondItem="Ljs-5e-wqq" secondAttribute="centerX" id="U3N-q0-hpW"/>
+                            <constraint firstItem="kbB-yd-Jwk" firstAttribute="centerX" secondItem="Ljs-5e-wqq" secondAttribute="centerX" id="gI9-Lu-BBD"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ljs-5e-wqq" secondAttribute="trailing" constant="20" id="i7i-Xj-Ijz"/>
+                            <constraint firstItem="Ljs-5e-wqq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="prX-Us-cVy"/>
+                            <constraint firstItem="Ljs-5e-wqq" firstAttribute="centerX" secondItem="Jeh-Iq-f4r" secondAttribute="centerX" id="xXF-2X-cbE"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Primeira Cena" id="lpp-BV-YdC"/>
+                    <connections>
+                        <outlet property="textField" destination="kbB-yd-Jwk" id="wgi-RG-5ds"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1136" y="-376"/>
+        </scene>
+        <!--Segunda Cena-->
+        <scene sceneID="OSp-Tu-Cwz">
+            <objects>
+                <viewController id="YaQ-09-N16" customClass="SegundoViewController" customModule="NossoPrimeiroApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eHn-DY-LjX"/>
+                        <viewControllerLayoutGuide type="bottom" id="6uU-eo-1BS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="V1Y-EW-nRg">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TmS-U6-jZG">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="TmS-U6-jZG" firstAttribute="leading" secondItem="V1Y-EW-nRg" secondAttribute="leading" id="3EH-Iq-0kR"/>
+                            <constraint firstAttribute="trailing" secondItem="TmS-U6-jZG" secondAttribute="trailing" id="V65-AD-gON"/>
+                            <constraint firstAttribute="bottom" secondItem="TmS-U6-jZG" secondAttribute="bottom" id="hRa-R1-0m9"/>
+                            <constraint firstItem="TmS-U6-jZG" firstAttribute="top" secondItem="V1Y-EW-nRg" secondAttribute="top" id="tQn-F1-JLY"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="k1H-4Y-6SK"/>
+                        <barButtonItem title="Aplicar Filtro" id="GG9-98-l1e">
+                            <connections>
+                                <action selector="aplicaFiltro:" destination="YaQ-09-N16" id="Y64-zv-HXZ"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="WyS-rs-jD2"/>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" title="Segunda Cena" id="9dD-93-tHk"/>
+                    <connections>
+                        <outlet property="imageView" destination="TmS-U6-jZG" id="ZEV-Tn-s8R"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DlG-jG-gAu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1901" y="-376"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="jU0-qn-J7n">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" toolbarHidden="NO" id="eMu-dA-amM" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ux8-VJ-clL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="D8m-6Q-Emv">
+                        <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="9Af-Re-1Ma"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UIc-lO-GcY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="319" y="-376"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="oVf-IK-FKS"/>
+    </inferredMetricsTieBreakers>
+</document>
